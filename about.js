@@ -64,7 +64,7 @@ const about = `
                 </p>
                 <h3>2021-current</h3>
                 <p>
-                    I've dicided on a few things I would like to get good at. From now on I'll be focusing on expanding my
+                    I've decided on a few things I would like to get good at. From now on I'll be focusing on expanding my
                     knowledge and capability with programming, mathematics and digital content creation.
                 </p>
                 <p>
