@@ -22,9 +22,6 @@ const projects = `
                 <p>
                     <a href="https://github.com/Moss1019/sql_tool">source code</a>
                 </p>
-                <p>
-                    <a href="https://mossonthetree-codegenweb.azurewebsites.net/">run the tool</a>
-                </p>
                 <h2>Net brains</h2>
                 <p>
                     Here are some neural network implementations. Finding good material for learning the basics was a
