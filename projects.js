@@ -20,7 +20,7 @@ const projects = `
                     moment to start up.
                 </p>
                 <p>
-                    <a href="https://github.com/Moss1019/sql_tool">source code</a>
+                    <a href="https://github.com/Moss1019/codegenerator">source code</a>
                 </p>
                 <h2>Net brains</h2>
                 <p>
