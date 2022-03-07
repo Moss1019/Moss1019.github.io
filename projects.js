@@ -16,8 +16,7 @@ const projects = `
                     and some ElasticSearch and Kafka infrastructure for Java.
                 </p>
                 <p>
-                    Currently the app is running on free app services plans from Azure. This means that it will take a
-                    moment to start up.
+                    Access the tool <a href="https://moss1019-codegenweb.herokuapp.com/">here</a>
                 </p>
                 <p>
                     <a href="https://github.com/Moss1019/codegenerator">source code</a>
