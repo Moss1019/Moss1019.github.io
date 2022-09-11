@@ -1,6 +1,25 @@
 const projects = `
 <div class="padded-content">
                 <h1>Projects</h1>
+                <h2>Audio streamer</h2>
+                <p>
+                    I wanted to see how audio streaming works, so I went to work om making my own applications.
+                    The first one was done with C++ on a Linux machine, using ALSA for the sound playback and
+                    some TCP socketing for the data transfers. It works pretty well, with the ability to pause,
+                    play and load a new song. This is a console application, so not much to look at.
+                </p>
+                <p>
+                    The next step was to make a UI for the front-end. The options were Qt for the C++ code,
+                    or create a web app and make a bootleg Spotify. I went with the latter, and it turned out 
+                    well enough. The front-end still needs some work to look nice, but the concept of streaming
+                    in a song is there. It also works in a similar way as Spotify seems to do their streaming: making
+                    an http call to get the next chunk of audio to play.
+                </p>
+                <p>
+                    <a href="https://github.com/Moss1019/audio_streamer">c++ code</a>
+                    <a href="https://github.com/Moss1019/audio_streamer_server">Java web server</a>
+                    <a href="https://github.com/Moss1019/audio_streamer_web">React web app</a>
+                </p>
                 <h2>Code generator</h2>
                 <p>
                     This is a tool that allows you to generate a bunch of code for building a restful web app.
@@ -14,9 +33,6 @@ const projects = `
                     and spring boot beans. Now it's a web app, with the purpose of generating ready-to-run apps in a 
                     variety of frameworks. Currently it generates Spring boot apps, Axios and Flutter Http calls
                     and some ElasticSearch and Kafka infrastructure for Java.
-                </p>
-                <p>
-                    Access the tool <a href="https://moss1019-codegenweb.herokuapp.com/">here</a>
                 </p>
                 <p>
                     <a href="https://github.com/Moss1019/codegenerator">source code</a>
@@ -50,7 +66,7 @@ const projects = `
                 </p>
                 <h2>Trading bot</h2>
                 <p>
-                    This repo is private. This is a Python project with the goal of calculating market indicators from
+                    This is a Python project with the goal of calculating market indicators from
                     pricing data and making predictions on when to make a trade. Currently it calculates several indicators
                     such as Moving averages, Bollinger bands and an Ichimoku cloud. The next step is to find some way to
                     use these indicators to make profitable trades.
